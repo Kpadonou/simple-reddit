@@ -10,9 +10,10 @@ export class AppComponent {
   articles = [];
   constructor() {
     this.articles = [
-      new Article('Angular', 'http://angular.io', 3),
-      new Article('Fullstack', 'http://fullstack.io', 2),
-      new Article('Angular Homepage', 'http://angular.io', 1),
+      new Article('Angular', 'http://angular.io', 11),
+      new Article('Reactjs', 'https://reactjs.org', 9),
+      new Article('Vuejs', 'https://vuejs.org', 8),
+      // new Article('Nestjs', 'https://nestjs.com', 10),
     ];
   }
 
