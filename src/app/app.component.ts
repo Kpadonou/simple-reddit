@@ -10,9 +10,9 @@ export class AppComponent {
   articles = [];
   constructor() {
     this.articles = [
-      new Article('Angular', 'http://angular.io', 11),
-      new Article('Reactjs', 'https://reactjs.org', 9),
-      new Article('Vuejs', 'https://vuejs.org', 8),
+      new Article('Event-Driven Microservices with Kafka and RabbitMQ', 'https://www.redoxengine.com/blog/event-driven-architecture-with-kafka-and-rabbitmq/', 11),
+      new Article('Deploying Stateful Applications on Kubernetes', 'https://medium.com/tektutor/deploying-stateful-applications-in-kubernetes-8ffd46920b55', 9),
+      new Article('AWS EC2 Instances: A Comprehensive Guide to Virtual Machines', 'https://trackit.io/comprehensive-guide-to-amazon-ec2/', 18),
       // new Article('Nestjs', 'https://nestjs.com', 10),
     ];
   }
